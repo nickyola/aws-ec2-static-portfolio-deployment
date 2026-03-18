@@ -25,7 +25,7 @@ The diagram below illustrates the end-to-end cloud architecture of the LoveDigit
 
 It shows how user HTTPS requests flow through the internet to the AWS infrastructure, how DNS resolves the domain to the Elastic IP, how Nginx serves the static website, and how Datadog provides infrastructure monitoring and observability.
 
-![AWS Architecture Diagram](images/aws-portfolio-architecture-diagram.jpg)
+![AWS Architecture Diagram](images/aws-portfolio-architecture-diagram.JPG)
 
 ---
 
@@ -187,7 +187,7 @@ This enabled system-level observability including CPU utilization, memory usage,
 
 ### Datadog Host Metrics Dashboard
 
-![Datadog Host Metrics](images/datadog-host-metrics-dashboard.jpg)
+![Datadog Host Metrics](images/datadog-host-metrics-dashboard.JPG)
 
 This dashboard confirms that the Datadog Agent was successfully installed and collecting live infrastructure metrics from the EC2 instance.
 
@@ -195,7 +195,7 @@ This dashboard confirms that the Datadog Agent was successfully installed and co
 
 ### Datadog Process Monitoring
 
-![Datadog Process Monitoring](images/datadog-process-monitoring.jpg)
+![Datadog Process Monitoring](images/datadog-process-monitoring.JPG)
 
 This view shows active system processes including the Datadog agent, system probe, and other core Linux services, providing deep visibility into system operations.
 
