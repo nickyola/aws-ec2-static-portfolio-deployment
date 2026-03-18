@@ -7,6 +7,7 @@ Production deployment of a secure static portfolio website on AWS EC2 using Ngin
 ![SSL](https://img.shields.io/badge/Security-HTTPS-blue)
 ![DNS](https://img.shields.io/badge/Networking-DNS-red)
 ![Status](https://img.shields.io/badge/Deployment-Live-success)
+![Monitoring](https://img.shields.io/badge/Monitoring-Datadog-purple)
 
 # LoveDigitals Portfolio Deployment on AWS
 
@@ -26,6 +27,7 @@ The diagram below illustrates the end-to-end cloud architecture of the LoveDigit
 It shows how user HTTPS requests flow through the internet to the AWS infrastructure, how DNS resolves the domain to the Elastic IP, how Nginx serves the static website, and how Datadog provides infrastructure monitoring and observability.
 
 ![AWS Architecture Diagram](images/aws-portfolio-architecture-diagram.JPG)
+Cloud architecture showing HTTPS request flow, DNS routing, Elastic IP mapping, Nginx static hosting and Datadog observability integration.
 
 ---
 
